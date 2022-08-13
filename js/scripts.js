@@ -47,14 +47,7 @@ const channels = [new YoutubeChannel("Amigoscode", "https://www.youtube.com/c/am
                   new YoutubeChannel("Code Decode", "https://www.youtube.com/c/CodeDecode", "./assets/img/codedecode.jpg","64.6K", "173"),
                   new YoutubeChannel("Derek Banas", "https://www.youtube.com/c/derekbanas", "./assets/img/derekbanas.jpg", "1.19M", "1,222"),
                   new YoutubeChannel("Java Code Geeks", "https://www.youtube.com/channel/UCxoUc7Rar2q90Gu0nT2ffuQ", "./assets/img/javacodegeeks.jpg", "16.7K", "107"),
-                  new YoutubeChannel("Leila Gharani", "https://www.youtube.com/c/LeilaGharani", "./assets/img/leilagharani.jpg", "1.82M", "454"),
-                  new YoutubeChannel("MIT OpenCourseWare", "https://www.youtube.com/c/mitocw", "./assets/img/mitopencourseware.jpg", "4.02M", "6,788"),
-                  new YoutubeChannel("NeetCode", "https://www.youtube.com/c/NeetCode", "./assets/img/neetcode.jpg", "196K", "326"),
-                  new YoutubeChannel("Programming with Mosh", "https://www.youtube.com/c/programmingwithmosh", "./assets/img/mosh.jpg", "2.66M", "170"),
-                  new YoutubeChannel("Selenium Express", "https://www.youtube.com/c/SeleniumExpress", "./assets/img/selenium.jpg", "72K", "152"),
-                  new YoutubeChannel("SpringDeveloper", "https://www.youtube.com/user/SpringSourceDev", "./assets/img/springdeveloper.jpg", "175K",   "1,109"),
-                  new YoutubeChannel("TechWorld with Nana", "https://www.youtube.com/c/TechWorldwithNana", "./assets/img/nana.jpg", "588K", "97"),
-                  new YoutubeChannel("freeCodeCamp.org","https://www.youtube.com/c/Freecodecamp", "./assets/img/freecodecamp.jpg", "6.02M", "1,332")];
+                  new YoutubeChannel("Leila Gharani", "https://www.youtube.com/c/LeilaGharani", "./assets/img/leilagharani.jpg", "1.82M", "454")];
 
 function createDot(isActive) {
     let li = document.createElement("li");
